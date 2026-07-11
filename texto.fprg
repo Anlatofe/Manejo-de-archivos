@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="texto"/>
+        <attribute name="authors" value="ANLATOFE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-10 07:56:44 p.&#8239;m."/>
+        <attribute name="created" value="QU5MQVRPRkU7QUlST0tBOzIwMjYtMDctMTA7MDc6NDY6NDUgcC7igK9tLjsxMDcwOA=="/>
+        <attribute name="edited" value="QU5MQVRPRkU7QUlST0tBOzIwMjYtMDctMTA7MDc6NTY6NDQgcC7igK9tLjsxOzEwODE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="NombreArchivo" type="String" array="False" size=""/>
+            <assign variable="NombreArchivo" expression="&quot;Palabras.txt&quot;"/>
+            <open expression="" mode="read"/>
+        </body>
+    </function>
+</flowgorithm>
